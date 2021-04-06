@@ -2,7 +2,6 @@
 2. Take as input three numbers a, b and c.
 3. Print true if they can form a pythagorean triplet and false otherwise. */
 import java.util.*;
-
 public class PythagoreanTriplet {
 
     public static void main(String[] args) {
