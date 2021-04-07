@@ -1,0 +1,112 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountDigit",
+            "request": "launch",
+            "mainClass": "Basics.CountDigit",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch CuriosCaseofBeljiman",
+            "request": "launch",
+            "mainClass": "Basics.CuriosCaseofBeljiman",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Basics.Fibonacci",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch GCDandLCM",
+            "request": "launch",
+            "mainClass": "Basics.GCDandLCM",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch InverseOfNumber",
+            "request": "launch",
+            "mainClass": "Basics.InverseOfNumber",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prime",
+            "request": "launch",
+            "mainClass": "Basics.Prime",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeBetwwenLowHigh",
+            "request": "launch",
+            "mainClass": "Basics.PrimeBetwwenLowHigh",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeFactorization",
+            "request": "launch",
+            "mainClass": "Basics.PrimeFactorization",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintDigitsOfNumber",
+            "request": "launch",
+            "mainClass": "Basics.PrintDigitsOfNumber",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintDigitsOfNumberNewVersion",
+            "request": "launch",
+            "mainClass": "Basics.PrintDigitsOfNumberNewVersion",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch PythagoreanTriplet",
+            "request": "launch",
+            "mainClass": "Basics.PythagoreanTriplet",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseNumber",
+            "request": "launch",
+            "mainClass": "Basics.ReverseNumber",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch RotateNumber",
+            "request": "launch",
+            "mainClass": "Basics.RotateNumber",
+            "projectName": "Data Structures_afdd350a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern1",
+            "request": "launch",
+            "mainClass": "Patterns.Pattern1",
+            "projectName": "Data Structures_afdd350a"
+        }
+    ]
+}
