@@ -1,35 +1,32 @@
 /*1. You are given a number n.
 2. You've to create a pattern as shown in sample output.
-eg, n=5
+eg, n=3
 Sample Output
-1	
-1	1	
-1	2	1	
-1	3	3	1	
-1	4	6	4	1
+3 * 1 = 3
+3 * 2 = 6
+3 * 3 = 9
+3 * 4 = 12
+3 * 5 = 15
+3 * 6 = 18
+3 * 7 = 21
+3 * 8 = 24
+3 * 9 = 27
+3 * 10 = 30
 */
 
 import java.util.*;
+
 public class Pattern14 {
+
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-
-        //write your code here
         int n=scn.nextInt();
         
-        
-        int ncr=1;
-        for(int i=0;i<n;i++)
+        for(int i=1;i<=10;i++)
         {
-            ncr=1;
-            for(int j=0;j<=i;j++)
-            {
-                System.out.print(ncr+"	");
-                ncr=ncr *(i-j)/(j+1);
-            }
-            
-                System.out.println();
+            System.out.println(n+" * "+i+" = "+(n*i));
         }
+        // write ur code here
 
     }
 }
