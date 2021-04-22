@@ -18,28 +18,30 @@ public class Pattern17 {
 
         // write ur code here
         int n = scn.nextInt();
-        int star = 1;
-        int space = 2 * n - 3;
-        for (int r = 0; r < n; r++) {
-            int a = 0;
-            for (int st = 1; st <= star; st++) {
-                a++;
-                System.out.print(a + "	");
-            }
-            for (int sp = 1; sp <= space; sp++) {
+
+        int spc = n / 2;
+        int str = 1;
+        boolean flg = false;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < spc; j++) {
+                if(i== n/2)
+                System.out.print("*	");
+                else
                 System.out.print("	");
             }
-            if (r == n - 1) {
-                star--;
-                a--;
+            for (int k = 0; k < str; k++) {
+                System.out.print("*	");
             }
-            for (int st = 1; st <= star; st++) {
-                System.out.print(a + "	");
-                a--;
-            }
+            
             System.out.println();
-            star++;
-            space -= 2;
+            if (i < (n / 2)) {
+                spc=n/2;
+                str += 1;
+            } else {
+                spc=n/2;
+                str -= 1;
+            }
         }
+
     }
 }
