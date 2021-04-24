@@ -36,13 +36,3 @@ public class Pattern20 {
     }
 }
 
-
-
-
-
-
-
-      
-
-    }
-}
