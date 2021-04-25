@@ -21,9 +21,7 @@ public class DigitFrequency {
     }
 
     public static int getDigitFrequency(int n, int d) {
-        // write code here
-        
-        
+
         int rem=0,cnt=0;
         while(n>0)
         {
